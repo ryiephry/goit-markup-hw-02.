@@ -1,7 +1,51 @@
-.body {
+header {
   background-color: rgb(255, 60, 0);
+}
+.computerimg {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 262px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.baskitballimg {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 262px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.seafoodimg {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 262px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+footer {
+  background-color: cornflowerblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .disapear {
-  opacity: 0;
+  opacity: 1;
+}
+
+div {
+  background-color: blueviolet;
+  width: 50;
+  height: 80;
+  float: right;
 }
