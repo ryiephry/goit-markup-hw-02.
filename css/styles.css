@@ -1,5 +1,21 @@
 header {
-  background-color: rgb(255, 60, 0);
+}
+body {
+  color: #212121;
+  font-family: Roboto, sans serif;
+  font-weight: 500;
+}
+.mainpagesyle {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+p {
+  font-family: roboto;
+  font-weight: 400;
 }
 .computerimg {
   position: absolute;
@@ -34,18 +50,81 @@ header {
   background: #ffffff;
   border: 1px solid #eeeeee;
 }
-footer {
-  background-color: cornflowerblue;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+.headphonesimg {
+  box-sizing: border-box;
 
-.disapear {
-  opacity: 1;
-}
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 696px;
 
-div {
-  background-color: blueviolet;
-  width: 50;
-  height: 80;
-  float: right;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.brickpicimg {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 696px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.screenpicimg {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 696px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.bookpicimg {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 1130px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.labeltacpicimg {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 1130px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.typingpicimg {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 1130px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.footerplacement {
+}
+.webstudio-raleway {
+  font-family: Raleway;
+  font-weight: 700;
 }
