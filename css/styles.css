@@ -1,9 +1,14 @@
 header {
 }
+.all {
+  font-weight: 500;
+}
 body {
   color: #212121;
   font-family: Roboto, sans serif;
-  font-weight: 500;
+}
+p {
+  font-weight: 400;
 }
 .mainpagesyle {
   font-family: Roboto;
@@ -13,10 +18,7 @@ body {
   letter-spacing: 0.06em;
   text-align: left;
 }
-p {
-  font-family: roboto;
-  font-weight: 400;
-}
+
 .computerimg {
   position: absolute;
   width: 370px;
@@ -123,6 +125,7 @@ p {
   border: 1px solid #eeeeee;
 }
 .footerplacement {
+  font-weight: 400;
 }
 .webstudio-raleway {
   font-family: Raleway;
