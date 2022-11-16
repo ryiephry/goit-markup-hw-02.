@@ -1,0 +1,253 @@
+:root {
+  --accent-color: #2196f3;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --white-color: #ffffff;
+  --background-dark-color: #2f303a;
+  --background-light-color: #ffffff;
+}
+* {
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+body {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(16 / 16);
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+section > ul > li .computerimg {
+  background-color: #212121;
+}
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+  height: 80px;
+  width: 1600px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}
+.top-bar {
+  font-weight: 500;
+  color: var(--primary-text-color);
+}
+.top-bar:hover,
+.top-bar:focus {
+  color: var(--accent-color);
+}
+.top-bar-current {
+  color: var(--accent-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+.all-blue-button:hover,
+.all-blue-button:focus {
+  color: var(--accent-color);
+}
+
+a {
+  font-weight: 500;
+  color: var(--secondary-text-color);
+}
+/*
+header > li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+  height: 80px;
+  width: 1600px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}*/
+
+.all-blue-button > button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /*text-align: center;*/
+  letter-spacing: 0.03em;
+}
+.all-blue-button > button:hover,
+.all-blue-button > button:focus {
+  color: var(--accent-color);
+}
+.mainpagesyle {
+  font-family: roboto;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+.images-titles {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+.paragraphs {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.the-9-images {
+  list-style: circle;
+  list-style-position: inside;
+}
+/*
+.computerimg {
+  box-sizing: border-box;
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 262px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+} /*
+.baskitballimg {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 262px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}/*
+.seafoodimg {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 262px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}/*
+.headphonesimg {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 696px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}/*
+.brickpicimg {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 696px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}/*
+.screenpicimg {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 696px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}/*
+.bookpicimg {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 1130px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+/*
+.labeltacpicimg {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 1130px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+/*
+.typingpicimg {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 1130px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+*/
+footer {
+  font-size: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+  background-color: var(--background-dark-color);
+}
+
+.white-address {
+  font-style: normal;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+/*for placemet purposes*/
+.email-and-tele {
+}
