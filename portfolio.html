@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link href="./css/styles2.css" rel="stylesheet" type="text/css">
+    <link href="./css/styles1.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -22,13 +22,14 @@
         <nav>
             <ul>
                 <li>
-                    <a href="./index.html" class="top-bar">Studio</a>
+                    <a href="./index.html" class="header-navigation-link ">Studio</a>
                 </li>
                 <li>
-                    <a href="./portfolio.html" class="top-bar">Portfolio</a>
+                    <a href="portfolio.html" class="header-navigation-link 
+                    header-navigation-link-current">Portfolio</a>
                 </li>
                 <li>
-                    <a class="top-bar"> Contacts</a>
+                    <a href="#" class="header-navigation-link">Contacts</a>
                 </li>
             </ul>
 
@@ -46,81 +47,81 @@
 
     <main class="mainpagesyle">
         <!-- buttons/filters for the body-->
-        <section class="all-buttons">
-            <ul>
+        <section>
+            <ul class="all-buttons">
                 <li class="all-blue-button">
                     <button type="button">All</button>
                 </li>
-                <li>
-                    <button type="button"> <a href="#" class="all-buttons">Web-sites</a>
+                <li class="all-buttons">
+                    <button type="button">Web-sites</button>
                 </li>
-                <li>
-                    <button type="button"> <a href="#" class="all-buttons">Apps</a>
+                <li class="all-buttons">
+                    <button type="button">Apps</button>
                 </li>
-                <li>
-                    <button type="button"> <a href="#" class="all-buttons">Design</a>
+                <li class="all-buttons">
+                    <button type="button">Design</button>
                 </li>
-                <li>
-                    <button type="button"> <a href="#" class="all-buttons">marketing</a>
+                <li class="all-buttons">
+                    <button type="button">marketing</button>
                 </li>
             </ul>
         </section>
         <!--images section-->
         <section>
 
-            <ul class="the-9-images">
+            <ul class="the-9-images text-for-profilepics"">
 
-                <li class="computerimg">
-                    <img src="images/computerpic.jpg" alt="computer" width="370">
-                    <h3 class="image-titles">Technoduck</h3>
-                    <p class="paragraphs">Web-site</p>
+                <li class=" computerimg">
+                <img src="images/computerpic.jpg" alt="computer" width="370">
+                <h3 class="profile-images-title-2">Technoduck</h3>
+                <p class="paragraphs">Web-site</p>
                 </li>
 
                 <li class="baskitballimg">
                     <img src="images/baskitballpic.jpg" alt="baskitball" width="370">
-                    <h3 class="image-titles">Poster New Orlean vs Golden Star</h3>
+                    <h3 class="profile-images-title-2">Poster New Orlean vs Golden Star</h3>
                     <p class="paragraphs">Design</p>
                 </li>
 
                 <li class="seafoodimg">
                     <img src="images/seafoodpic.jpg" alt="seafoodpic" width="370">
-                    <h3 class="image-titles">Seafood Restaurant</h3>
+                    <h3 class="profile-images-title-2">Seafood Restaurant</h3>
                     <p class="paragraphs">Apps</p>
                 </li>
 
                 <li class="headphonesimg">
                     <img src="images/headphonespic.jpg" alt="headphones" width="370">
-                    <h3 class="image-titles">Project Prime</h3>
+                    <h3 class="profile-images-title-2">Project Prime</h3>
                     <p class="paragraphs">Marketing</p>
                 </li>
 
                 <li class="brickpicimg">
                     <img src="images/brickpic.jpg" alt="brickpic" width="370">
-                    <h3 class="image-titles">Project Boxes</h3>
+                    <h3 class="profile-images-title-2">Project Boxes</h3>
                     <p class="paragraphs">Apps</p>
                 </li>
 
                 <li class="screenpicimg">
                     <img src="images/screenpic.jpg" alt="screenpic" width="370">
-                    <h3 class="image-titles">Inspiration has no Borders</h3>
+                    <h3 class="profile-images-title-2">Inspiration has no Borders</h3>
                     <p class="paragraphs">Web-site</p>
                 </li>
 
                 <li class="bookpicimg">
                     <img src="images/bookpic.jpg" alt="bookpic" width="370">
-                    <h3 class="image-titles">Limited Edition</h3>
+                    <h3 class="profile-images-title-2">Limited Edition</h3>
                     <p class="paragraphs">Design</p>
                 </li>
 
                 <li class="labeltacpicimg">
                     <img src="images/labeltacpic.jpg" alt="labelpic" width="370">
-                    <h3 class="image-titles">Project LAB</h3>
+                    <h3 class="profile-images-title-2">Project LAB</h3>
                     <p class="paragraphs">Marketing</p>
                 </li>
 
                 <li class="typingpicimg">
                     <img src="images/typingpic.jpg" alt="typingpic" width="370">
-                    <h3 class="image-titles">Growing Business</h3>
+                    <h3 class="profile-images-title-2">Growing Business</h3>
                     <p class="paragraphs">Apps</p>
                 </li>
             </ul>
@@ -136,18 +137,17 @@
 
         <address>
             <ul>
-                <li>
-                    <a href="https://goo.gl/maps/Pc82vpNhHuvUtrE47" target="blank_" class="white-address">695 Park Ave,
-                        New York, NY
-                        10065,<br /> United States</a>
+                <li class="white-address">
+                    <a href="https://goo.gl/maps/Pc82vpNhHuvUtrE47" target="_blank" class="white-address">695 Park Ave,
+                        New York, NY 10065,
+                        <br>United States</a>
                 </li>
                 <li>
-                    <a href="mailto:info@devstudio.com" class="email-and-tele">info@devstudio.com</a>
+                    <a href="mailto:info@example.com" class="mail-tele-color">info@example.com</a>
                 </li>
                 <li>
-                    <a href="tel:+12127724150" class="email-and-tele">+1 212-772-4150</a>
+                    <a href="tel: +1 212-772-4150" class="mail-tele-color">+1 212-772-4150 </a>
                 </li>
-
             </ul>
         </address>
     </footer>

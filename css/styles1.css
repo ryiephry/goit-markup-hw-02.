@@ -4,7 +4,7 @@
   --secondary-text-color: #757575;
   --white-color: #ffffff;
   --background-dark-color: #2f303a;
-  --background-light-color: #ffffff;
+  --background-light-color: #f5f4fa;
 }
 body {
   font-family: 'Roboto';
@@ -109,7 +109,6 @@ h1 {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  background-color: var(--background-light-color);
 }
 .profile-images-title {
   font-weight: 500;
@@ -125,6 +124,7 @@ h1 {
   /* text-align: center;*/
   letter-spacing: 0.03em;
   color: #757575;
+  background-color: var(--background-light-color);
 }
 .title-for-images2 {
   font-weight: 700;
@@ -133,6 +133,7 @@ h1 {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  background-color: var(--background-light-color);
 }
 footer > address > li {
   font-size: 14px;
@@ -160,5 +161,91 @@ address {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/*next page / portfolio*/
+
+.images-titles {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+  height: 80px;
+  width: 1600px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}
+.top-bar {
+  font-weight: 500;
+  color: var(--primary-text-color);
+}
+.top-bar:hover,
+.top-bar:focus {
+  color: var(--accent-color);
+}
+.top-bar-current {
+  color: var(--accent-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+.all-blue-button:hover,
+.all-blue-button:focus {
+  color: var(--accent-color);
+}
+.all-buttons {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc (30/16);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border: 4px;
+  color: var(--primary-text-color);
+}
+
+a {
+  font-weight: 500;
   color: var(--secondary-text-color);
+}
+
+.all-blue-button > button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.all-blue-button > button:hover,
+.all-blue-button > button:focus {
+  color: var(--accent-color);
+}
+.all-buttons > button {
+  background-color: var(--background-light-color);
+}
+p {
+  font-weight: 400;
+}
+
+.profile-images-title-2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /*text-align: center;*/
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
