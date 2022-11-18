@@ -53,20 +53,10 @@ ul {
   background-color: var(--background-dark-color);
 }
 
-h1 {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: calc(60 / 44);
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--white-color);
-  border-color: #212121;
-}
 .hero-button {
   font-weight: 700;
   font-size: 16px;
-  line-height: calc (30/16);
+  line-height: calc(30 / 16);
   display: flex;
   align-items: center;
   text-align: center;
@@ -80,7 +70,17 @@ h1 {
   color: aquamarine;
   background-color: bisque;
 }
-.titles-for-paragraphs {
+.hero-titles {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  border-color: #212121;
+}
+.hero-titles .titles-for-paragraphs {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -117,6 +117,12 @@ h1 {
   /*text-align: center;*/
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+}
+.paragraphs {
+  font-weight: 400;
+}
+.paragraphs2 {
+  font-weight: 500;
 }
 .text-for-profilepics {
   font-size: 16px;
@@ -158,12 +164,15 @@ address {
 }
 
 .mail-tele-color {
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
+.our-futures {
+  display: none;
+}
 /*next page / portfolio*/
 
 .images-titles {
@@ -200,20 +209,26 @@ header {
 .header-link:focus {
   color: var(--accent-color);
 }
-.all-blue-button:hover,
-.all-blue-button:focus {
+.all-blue-button:hover {
   color: var(--accent-color);
 }
-.all-buttons {
+.filters-all-buttons {
   font-weight: 500;
   font-size: 16px;
-  line-height: calc (30/16);
+  line-height: calc(30 / 16);
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   border: 4px;
   color: var(--primary-text-color);
+}
+
+.all-buttons > button {
+  background-color: var(--background-light-color);
+}
+.all-buttons > button:hover {
+  background-color: var(--accent-color);
 }
 
 a {
@@ -234,12 +249,6 @@ a {
 .all-blue-button > button:focus {
   color: var(--accent-color);
 }
-.all-buttons > button {
-  background-color: var(--background-light-color);
-}
-p {
-  font-weight: 400;
-}
 
 .profile-images-title-2 {
   font-weight: 700;
@@ -248,4 +257,12 @@ p {
   /*text-align: center;*/
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+}
+
+.text-for-profilepics2 {
+  font-size: 16px;
+  line-height: 19px;
+  /* text-align: center;*/
+  letter-spacing: 0.03em;
+  color: #757575;
 }
